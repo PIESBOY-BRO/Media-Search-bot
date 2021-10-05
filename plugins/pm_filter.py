@@ -171,7 +171,7 @@ async def group(client, message):
 def get_size(size):
     """Get size in readable format"""
 
-    units = ["Bytes", "KB", "MB", "GB", "TB", "PB", "EB"]
+    units = ["Bytes", "𝚜𝚞𝚋𝚝𝚒𝚝𝚕𝚎", "MB", "GB", "TB", "PB", "EB"]
     size = float(size)
     i = 0
     while size >= 1024.0 and i < len(units):
@@ -276,7 +276,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('Source Code', url='https://github.com/subinps/Media-Search-bot')
                 ]
                 ]
-            await query.message.edit(text="<b>Developer : <a href='https://t.me/subinps_bot'>SUBIN</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://github.com/subinps/Media-Search-bot'>Click here</a>\nUpdate Channel : <a href='https://t.me/subin_works'>XTZ Bots</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+            await query.message.edit(text="<b>Developer : <a href='https://t.me/PIES_BOY'>𝐏𝙸𝙴𝚂_𝐁𝙾𝚈 ꪜ</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://github.com/PIESBOY-BRO/Media-Search-bot'>Click here</a>\nUpdate Channel : <a href='https://t.me/Movie_World_00bot'>XTZ Bots</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 
 
@@ -297,8 +297,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('More Bots', url='https://t.me/subin_works/122'),
-                        InlineKeyboardButton('Update Channel', url='https://t.me/subin_works')
+                        InlineKeyboardButton('𝒔𝒖𝒑𝒑𝒐𝒓𝒕💌', url='https://t.me/Movie_World_00bot'),
+                        InlineKeyboardButton('⚡𝐌𝐘 𝐁𝐎𝐒𝐒⚡', url='https://t.me/PIES_BOY')
                     ]
                     ]
                 
@@ -329,8 +329,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [
-                        InlineKeyboardButton('More Bots', url='https://t.me/subin_works/122'),
-                        InlineKeyboardButton('Update Channel', url='https://t.me/subin_works')
+                        InlineKeyboardButton('𝒔𝒖𝒑𝒑𝒐𝒓𝒕💌', url='https://t.me/Movie_World_00bot'),
+                        InlineKeyboardButton('⚡𝐌𝐘 𝐁𝐎𝐒𝐒⚡', url='https://t.me/PIES_BOY')
                     ]
                     ]
                 
